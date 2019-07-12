@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Style-Type" content="text/css">
         <meta http-equiv="Content-Script-Type" content="text/javascript">
 
-        <title>TurnKey NGINX PHP FastCGI Server</title>
+        <title>TurnKey NGINX PostgreSQL PHP FastCGI Server</title>
         
         <link rel="stylesheet" href="css/ui.tabs.css" type="text/css" media="print, projection, screen"/>
         <link rel="stylesheet" href="css/base.css" type="text/css"/>
@@ -22,7 +22,7 @@
     </head>
 
     <body>
-        <h1>TurnKey NGINX PHP FastCGI Server</h1>
+        <h1>TurnKey NGINX PostgreSQL PHP FastCGI Server</h1>
         
         <div id="container-1">
             <ul>
@@ -56,7 +56,7 @@
                           <a href="/phpinfo.php">NGINX PHP information</a>
                           (to disable: rm /var/www/phpinfo.php)
                         </li>
-                        <li><a href="https://www.turnkeylinux.org/nginx-php-fastcgi">TurnKey appliance release notes</a></li>
+                        <!-- <li><a href="https://www.turnkeylinux.org/lepp">TurnKey appliance release notes</a></li> -->
                     </ul>
 
                 </div>

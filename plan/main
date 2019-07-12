@@ -2,13 +2,15 @@
 
 nginx
 
+postgresql-9.6
+postgresql-contrib-9.6
+webmin-postgresql
+
 php-gd
 php-cli
 php-cgi
 php-curl
-php-mysql
+php-pgsql
 webmin-phpini
 
-mysql-server
-webmin-mysql
 adminer

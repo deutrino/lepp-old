@@ -33,7 +33,6 @@ and on top of that:
 - PostgreSQL password encryption enabled by default (security).
 - The *postgres* user is trusted when connecting over local unix sockets
   (convenience).
-- `PostGIS`_ support.
 - Postfix MTA (bound to localhost) to allow sending of email (e.g.,
   password recovery).
 - Webmin modules for configuring PHP, PostgreSQL and Postfix.
