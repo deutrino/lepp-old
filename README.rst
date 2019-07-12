@@ -25,11 +25,11 @@ and on top of that:
 - SSL support out of the box.
 - `Adminer`_ administration frontend for PostgreSQL (listening on
   port 12322 - uses SSL).
-- PostgreSQL is configured to listen on its default port (5432/tcp) on
-  all interfaces by default, and accept connections from all hosts. In a
+- PostgreSQL 9.6 is configured to listen on its default port (5432/tcp)
+  on local interfaces by default, and accept local connections. In a
   production environment, it is recommended to limit incoming
-  connections to specific hosts by configuring *Host* and *User* access
-  in */etc/postgresql/9.1/main/pg\_hba.conf*.
+  connections by configuring *Host* and *User* access in
+  */etc/postgresql/9.6/main/pg\_hba.conf*.
 - PostgreSQL password encryption enabled by default (security).
 - The *postgres* user is trusted when connecting over local unix sockets
   (convenience).
