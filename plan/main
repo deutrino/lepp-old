@@ -1,0 +1,14 @@
+#include <turnkey/base>
+
+nginx
+
+php-gd
+php-cli
+php-cgi
+php-curl
+php-mysql
+webmin-phpini
+
+mysql-server
+webmin-mysql
+adminer
