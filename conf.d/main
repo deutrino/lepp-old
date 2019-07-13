@@ -14,13 +14,3 @@ chmod 770 /var/run/nginx
 
 PGSQL_VER=$(ls /etc/postgresql/)
 
-# configure postgres to listen for remote connections
-CONF=/etc/postgresql/$PGSQL_VER/main/postgresql.conf
-sed --in-place "s/#listen_addresses = 'localhost'/listen_addresses = '*'/" $CONF
-
-# TODO: replicate this, if needed, for nginx
-#sed -Ei "s|^(server.document-root.*=).*|\1 \"/var/www\"|" /etc/lighttpd/lighttpd.conf
-
-# enable tklcp site
-# TODO: nginx
-#lighty-enable-mod tklcp || true
