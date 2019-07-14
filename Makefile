@@ -1,7 +1,5 @@
 WEBMIN_FW_TCP_INCOMING = 22 80 443 12320 12321 12322
 
-PHP_VERSION=7.2
-
 COMMON_OVERLAYS += tkl-webcp adminer nginx
 COMMON_CONF += tkl-webcp adminer-nginx adminer-pgsql
 
